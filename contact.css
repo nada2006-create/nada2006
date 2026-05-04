@@ -31,6 +31,8 @@ body {
     background-color: var(--bg-main);
     color: var(--text-navy);
     min-height: 100vh;
+    margin: 0;
+     padding-top: 80px;
 }
 
 .categories {
