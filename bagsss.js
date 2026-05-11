@@ -2,8 +2,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   const searchInput = document.querySelector('.search-input');
   const productCards = document.querySelectorAll('.product-card');
-  const noResult = document.querySelector('noResult');
-
   searchInput.addEventListener('input', function () {
     const searchTerm = this.value.toLowerCase().trim();
     let foundCount = 0;

@@ -79,8 +79,6 @@ themeBtn.addEventListener('click', () => {
 document.addEventListener('DOMContentLoaded', function () {
   const searchInput = document.querySelector('.search-input');
   const productCards = document.querySelectorAll('section');
-  const noResult = document.querySelector('noResult');
-
   searchInput.addEventListener('input', function () {
     const searchTerm = this.value.toLowerCase().trim();
     let foundCount = 0;

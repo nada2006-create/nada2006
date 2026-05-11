@@ -57,8 +57,6 @@ buttons.forEach((btn) => {
 });
 document.addEventListener('DOMContentLoaded', function () {
     const searchInput = document.querySelector('.search-input');
-    const noResult = document.querySelector('noResult');
-
     searchInput.addEventListener('input', function () {
         const searchTerm = searchInput.value.toLowerCase().trim();
         
