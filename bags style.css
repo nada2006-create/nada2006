@@ -475,15 +475,10 @@ body.dark-mode .theme-toggle i {
     border: 2px solid #0d1223;
 }
 
-
-
 .hide {
     display: none;
 }
 
-.noResult {
-    display: none;
-}
 #logout-btn{
     background-color: var(--btn-text);
     color:var(--bg-main);

@@ -576,9 +576,7 @@ body.dark-mode .theme-toggle i {
     transition: 0.3s;
     color: #666;
 }
-.noResult{
-    display: none;
-}
+
 .search-results {
     margin-top: 10px; 
     margin-bottom: 20px; 

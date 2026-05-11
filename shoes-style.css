@@ -378,10 +378,6 @@ h1 {
     display: none;
 }
 
-.noResult {
-    display: none;
-}
-
 .main-footer {
     background-color: var(--footer-bg);
     color: var(--footer-text);
