@@ -458,34 +458,27 @@ body.dark-mode .theme-toggle i {
 
 @media (max-width: 768px) {
     body {
-        padding-top: 130px !important;
+        padding-top: 180px;
     }
 
     nav {
         flex-direction: column;
-        gap: 8px;
-        padding: 10px 4%;
-        min-height: auto;
+        gap: 15px;
+        padding: 15px 4%;
     }
 
     nav .logo {
         justify-content: center;
         width: 100%;
         order: 1;
-        margin-bottom: 2px;
-    }
-
-    .logo-photo {
-        height: 50px;
     }
 
     nav ul {
         width: 100%;
         justify-content: center;
-        gap: 12px;
+        gap: 15px;
         order: 2;
         flex-direction: row;
-        flex-wrap: wrap;
     }
 
     nav ul li a {
@@ -502,8 +495,7 @@ body.dark-mode .theme-toggle i {
     nav .icons {
         width: 100%;
         justify-content: center;
-        align-items: center;
-        gap: 12px;
+        gap: 15px;
         order: 3;
         margin-top: 5px;
     }
@@ -512,19 +504,26 @@ body.dark-mode .theme-toggle i {
         margin-left: 0;
     }
 
-    #logout-btn {
-        margin-left: 0;
-        padding: 4px 10px;
-        font-size: 13px;
-        width: auto;
-    }
-
     .theme-toggle {
         margin-left: 0;
     }
 
     .search:hover .search-input {
         width: 130px;
+    }
+
+    .products {
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .product-card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .product-card img {
+        height: 250px;
     }
 
     .footer-container {

@@ -470,13 +470,13 @@ h1 {
 @media (max-width: 768px) {
     body {
 
-        padding-top: 140px !important;
+        padding-top: 180px;
     }
 
     nav {
         flex-direction: column;
-        gap: 8px;
-        padding: 10px 4%;
+        gap: 15px;
+        padding: 15px 4%;
     }
 
     nav .logo {
@@ -486,21 +486,18 @@ h1 {
     }
 
 
-    nav .logo img {
-        height: 40px !important;
-        width: auto !important;
-    }
+
 
     nav ul {
         width: 100%;
         justify-content: center;
-        gap: 12px;
+        gap: 15px;
         order: 2;
         flex-direction: row;
     }
 
     nav ul li a {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .dropdown-content {
@@ -513,9 +510,9 @@ h1 {
     nav .icons {
         width: 100%;
         justify-content: center;
-        gap: 12px;
+        gap: 15px;
         order: 3;
-        margin-top: 4px;
+        margin-top: 5px;
     }
 
     .icons a {
@@ -542,7 +539,7 @@ h1 {
     .products {
         display: grid !important;
         grid-template-columns: repeat(2, 1fr) !important;
-        /* منتجين في كل صف */
+
         gap: 12px !important;
         padding: 10px !important;
     }
